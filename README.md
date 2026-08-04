@@ -12,7 +12,9 @@ mv ~/Downloads/musty.py ~/MuSTX-PASSWD-Broker/
 cd ~/MuSTX-PASSWD-Broker
 nano musty.py
 
-paste cd ~/MuSTX-PASSWD-Broker
+paste 
+
+cd ~/MuSTX-PASSWD-Broker
 cat > musty.py << 'ENDOFFILE'
 #!/usr/bin/env python3
 """
