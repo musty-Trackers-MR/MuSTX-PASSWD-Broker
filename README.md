@@ -30,3 +30,8 @@ EOF
 git add README.md
 git commit -m "Add README with usage and disclaimer"
 git push
+
+
+git remote add origin https://github.com/<your-username>/musty-cracker.git
+git branch -M main
+git push -u origin main
