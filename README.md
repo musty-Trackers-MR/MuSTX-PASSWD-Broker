@@ -1,6 +1,6 @@
 # MuSTX-PASSWD-Broker
 
-git clone https://github.com/<your-username>/musty-cracker.git
+git clone https://github.com/Musty-Passwd/MuSTX-PASSWD-Broker
 
 
 cd musty-cracker
