@@ -184,24 +184,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-ENDOFFILE
-
-python3 musty.py -H -a md5 -w wordlist.txt
-
-python3 musty.py -H cc03e747a6afbbcbf8be7668acfebee5 -a md5 -w wordlist.txt
+  
 
 
 pip install -r requirements.txt
 
 
-python3 musty.py -H <hash> -a md5 -w wordlist.txt
-
-
-
-
 cat > README.md << 'EOF'
-# MUSTY - Educational Password Cracker
 
 Dictionary-based hash cracker for learning cybersecurity concepts.
 
@@ -209,16 +198,3 @@ Dictionary-based hash cracker for learning cybersecurity concepts.
 Only use on hashes you own or have explicit permission to test
 (your own accounts, CTF challenges, authorized labs like TryHackMe/HackTheBox).
 Unauthorized use against systems you don't own is illegal.
-
-## Usage
-python3 musty.py -H <hash> -a md5 -w wordlist.txt
-EOF
-
-git add README.md
-git commit -m "Add README with usage and disclaimer"
-git push
-
-
-git remote add origin https://github.com/<your-username>/musty-cracker.git
-git branch -M main
-git push -u origin main
