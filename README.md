@@ -3,7 +3,8 @@
 git clone https://github.com/Musty-Passwd/MuSTX-PASSWD-Broker
 
 
-cd musty-cracker
+cd MuSTX-PASSWD-Broker
+
 
 find / -name "musty.py" 2>/dev/null
 
